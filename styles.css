@@ -1,0 +1,47 @@
+/* Define your styles here */
+body {
+    margin: 0;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    background-color: #ffffff;
+}
+
+.upper-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.top-left {
+    flex: 1;
+}
+
+.owl-carousel .item {
+    background: #42bdc2;
+    padding: 30px 0px;
+    margin: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.top-left h2 {
+    margin: 0;
+}
+
+.top-left p {
+    margin: 0;
+}
+
+.top-right img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.text-container {
+    padding: 10px;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+}
